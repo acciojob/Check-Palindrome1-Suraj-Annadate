@@ -6,7 +6,7 @@ str = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase
 	let j = str.length-1
 
 	while (i<j) {
-		if(str.charAt(i)!=str.charAt(j))
+		if(str.charAt(i)!==str.charAt(j))
 		{
 			return false
 		}
