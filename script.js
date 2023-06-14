@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-str = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase
+str = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase()
 	let i=0
 	let j = str.length-1
 
